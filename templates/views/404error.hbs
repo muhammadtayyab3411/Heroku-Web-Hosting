@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head_links}}
+</head>
+<body>
+    
+   {{>navbar}}
+
+     <!-- main header  -->
+    <div class="main_header errorheader">
+
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto ">
+                <div class=" main_header_left align-items-center justify-content-start">
+                    <figure class="errimg">
+                        <img src="images/404.png" alt="thapa" title="thapatechnical" class="img-fluid">
+                    </figure>
+                    <p>Welcome to Thapa Technical World</p>
+                    <h1>{{error_msg}}</h1>
+                    <a href="/"><button>Go Back</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    {{>footer}}
+</body>
+{{>foot_links}}
+</html>
